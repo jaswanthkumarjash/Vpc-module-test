@@ -6,7 +6,7 @@ terraform {
         }
     }
     backend "s3" {
-        bucket = "roboshop-rs-bucket"
+        bucket = "roboshop-practice-bucket"
         key    = "vpc-test-demo"
         region = "us-east-1"
         use_lockfile = true
